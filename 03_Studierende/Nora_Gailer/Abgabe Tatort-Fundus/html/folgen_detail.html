@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="transparent">
+    <meta name="apple-mobile-web-app-title" content="SBB Prorotyp">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+   <!-- <script type="text/javascript" src="script/jquery-1.10.2.js"></script>-->
+    
+    <title>Tatort-Fundus</title>
+     <script language="JavaScript1.2">
+    /* you must supply your own immages */
+    var bgimages=new Array()
+ 	bgimages[0]="links/background1.jpg"
+    bgimages[1]="links/background2.jpg"
+    bgimages[2]="links/background3.jpg"
+	bgimages[3]="links/background4.jpg"
+	bgimages[4]="links/background5.jpg" 
+	bgimages[5]="links/background6.jpg"
+    
+    
+    var inc=-1
+    
+    
+    function bgSlide()
+    {
+      if (inc<bgimages.length-1)
+        inc++
+      else
+        inc=0
+      document.body.style.backgroundImage="url('"+bgimages[inc]+"')"
+    }
+    
+    if (document.all||document.getElementById)
+      window.onload=new Function('setInterval("bgSlide()",6000)')
+    </script>
+</head>
+
+<body>
+<div class="back-color">
+		<div class="logo"><img  src="links/1_Tatort_Logo_weiss.jpg" ></div>
+<div class="navigation">
+
+	<div class="menu">
+	<ul >
+		<li><a href="index.html">HOME</a>
+				
+			</li>
+			<li id="Folgen"><a href="#">FOLGEN</a>
+				
+					<ul >
+						<li><a href="folgen2.html">NÄCHSTE ERSTSENDUNGEN </a>&nbsp|</li>
+						<li><a href="#">NÄCHSTE WIEDERHOLUNGEN </a>&nbsp|</li>
+						<li><a href="#">FOLGEN ALPHABETISCH </a>&nbsp|</li>
+						<li><a href="folgen_detail.html">FOLGEN CHRONOLOGISCH </a>&nbsp|</li>
+						<li><a href="#">SPEZIELLE SENDUNGEN</a></li>
+					</ul>
+					
+			</li>
+			<li id="Rangliste"><a href="#">RANGLISTE</a>
+				
+					<ul >
+						<li><a href="#">LOGIN </a>&nbsp|</li>
+						<li><a href="#">FOLGEN WERTUNGEN </a>&nbsp|</li>
+						<li><a href="#">ERMITTLER WERTUNGEN </a>&nbsp|</li>
+						<li><a href="#">WERTUNG ANDERE USER </a>&nbsp|</li>
+						<li><a href="#">STATISTIKEN </a>&nbsp|</li>
+						<li><a href="#">EINSTELLUNGEN</a></li>
+					</ul>
+						
+			</li>
+			<li id="Personen"><a href="#">PERSONEN</a>
+				
+					<ul >
+						<li><a href="#">ERMITTLER </a>&nbsp|
+							<ul>
+									<li><a href="#">ALPHABETISCH SORTIERT</a> 
+			&nbsp|							<li><a href="#">NACH SENDER </a>&nbsp|
+											<li><a href="#">20 EINTAGSFLIEGEN </a>&nbsp|
+												<li><a href="#">GASTAUFTRITT</a>
+													
+								</ul>
+								</li>
+						<li><a href="#">PRODUKTION & HINTERGRUND</a>
+							<ul>
+								<li><a href="#">ARD VERANTWORTLICHE </a>&nbsp|
+									<li><a href="#">AUTOREN </a>&nbsp|
+										<li><a href="#">KAMERA </a>&nbsp|
+											<li><a href="#">MUSIKER </a>&nbsp|
+												<li><a href="#">REGIE </a>&nbsp|
+													<li><a href="#">SONSTIGE</a>
+							</ul>
+						</li>
+					</ul>
+					
+			</li>
+			<li id="Fundus"><a href="#">FUNDUS</a>
+				
+					<ul >
+						<li><a href="#">LEXIKON </a>&nbsp|
+							<ul>
+									<li><a href="#">ABSPANN </a>&nbsp|
+									<li><a href="#">ALTERSBESCHRÄNKUNG </a>&nbsp|
+									<li><a href="#">AUTOS DER ERMITTLER </a>&nbsp|
+									<li><a href="#">KARNEVAL IM TATORT </a>&nbsp|
+									<li><a href="#">LITERATUR </a>&nbsp|
+									<li><a href="#">MITSCHNITT GESUCHT! </a>&nbsp|
+									<li><a href="#">PHÄNOMEN UND KULT </a>&nbsp|
+									<li><a href="#">STATISTIKEN </a>&nbsp|
+									<li><a href="#">VORSPANN </a>&nbsp|
+									<li><a href="#">ZEITREISEN MIT TATORT</a>
+							</ul>
+						</li>
+						<li><a href="#">MEDIEN</a>
+								<ul>
+									<li><a href="#">BÜCHER & BROSCHÜREN </a>&nbsp|
+									<li><a href="#">VHS/ DVD </a>&nbsp|
+									<li><a href="#">CD/LP/SINGLE/HÖHRBÜCHER </a>&nbsp|
+									<li><a href="#">FAN-ARTIKEL</a>
+								</ul>
+						</li>
+						
+					</ul>
+					
+			</li>
+			<li class="Suche"><a href="#">SUCHE</a></li>
+	</ul>
+	</div>
+</div>
+
+<div class="box">
+		<div class="login">
+			<ul>
+				<li><a href="#">LOGIN</a>
+						<ul>
+							<li><a href="#">NEUE ANMELDUNG</a></li>
+							<li><a href="#">MEINE BEWERTUNGEN</a></li>
+							<li><a href="#">EINSTELLUNGEN</a></li>
+						</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+<div class="main">
+
+
+		<div class="news detail ">
+		<h2> <&nbsp 912. Folge &nbsp> </h2>
+		<h1>Zwischen zwei Welten</h1>
+			<img src="links/1_Tatort_Falsches_Alibi_web.jpg" >
+				<div class="text detail">
+				<h1>Erstsendung:</h1><p>21. April 2014</p>
+				 <h1>Sendelänge</h1><p>89:03</p>
+				 <h1>Drehbuch</h1><p> Matthias Tuchmann, Boris Dennulat, Erol Yesilkaya</p>
+				 <h1>Regie</h1>Florian Baxmeyer</p>
+				 <h1>Redaktion</h1>Annette Strelow</p>
+				 <h1>Drehort</h1>Luzern</p>
+				</div>
+				<p>Schwer verletzt versucht Müllmann Maik Decker mit einem Müllwagen zu fliehen. Doch es ist zu spät. Der Müllwagen verunglückt und Maik stirbt an seinen Stichverletzungen. Die Bremer Kommissare Inga Lürsen und Stedefreund übernehmen den Fall, durchleuchten das Umfeld des Opfers und sind zunehmend irritiert: Die Kollegen im Entsorgungsunternehmen scheint Deckers Tod nicht sonderlich zu wundern. Nach und nach begreifen sie, dass das Motiv komplex ist: Es geht um den Müll der Stadt, eine Straße voller Ex-Häftlinge – und einen Mann, der alle Fäden in der Hand hält.</p>
+
+		</div>
+
+	
+
+
+		
+		<div class="wdh folge">
+		<div class="wdh-box folge">  <h1>Nächste Wiederholungen</h1></div>
+		<table>
+			  <tr>
+			    <th>Datum</th>
+			    <th>Sender</th>
+
+			 </tr>
+			 <tr>
+			    <td>19.05.2014</td>
+			    <td> ORF2</td>
+			 </tr>
+			 <tr>
+			    <td>18.05.2014</td>
+			    <td>ARD</td>
+			 </tr>
+			   <tr>
+			    <td>20.05.2014</td>
+			    <td>ARD</td>
+			 </tr>
+			 <tr class="table-last">
+			    <td>20.05.2014</td>
+			    <td>ORF2</td>
+			 </tr>
+			</table>
+	</div>
+	<div class="folgen actors">
+		<h1>Besetzung:</h1>
+				Hauptkommissarin Inga Lürsen &nbsp-&nbsp Sabine Postel<br>
+				Hauptkommissar Nils Stedefreund &nbsp-&nbsp Oliver Mommsen<br>
+				Helen Reinders &nbsp-&nbsp Camilla Renschke<br>
+				Dr. Katzmann [Pathologe] &nbsp-&nbsp Matthias Brenner<br>
+				Kriminalassistent Karlsen &nbsp-&nbsp Winfried Hammelmann<br>
+				Sascha &nbsp-&nbsp Jacob Matschenz<br>
+				Uwe Frank [Papa] &nbsp-&nbsp Roeland Wiesnekker<br>
+				Tarik &nbsp-&nbsp Patrick Abozen<br>
+				Yvonne &nbsp-&nbsp Genija Rykova<br>
+				Pavel Symanek &nbsp-&nbsp Hendrik Arnst<br>
+				Trude &nbsp-&nbsp Maria Hartmann<br>
+				Abels &nbsp-&nbsp Patrick von Blume<br>
+				Vossler &nbsp-&nbsp Bernd Stegemann<br>
+				Han &nbsp-&nbsp Yu Fang<br>
+				N.N &nbsp-&nbsp Sebastian Kautz<br>
+				N.N &nbsp-&nbsp Heiko Dörfer<br>
+				N.N &nbsp-&nbsp Lars Appelt
+	</div>
+<!-- 
+	<div class="space">
+		</div> -->
+		
+</div>
+
+
+<div class="sidebar">
+
+	<div class="wdh ">
+		<div class="wdh-box ">  <h1>Nächste Wiederholungen</h1></div>
+		<table>
+			  <tr>
+			    <th>Datum</th>
+			    <th>Titel</th>
+			    <th>Sender</th>
+
+			 </tr>
+			 <tr>
+			    <td>24.06.	</td>
+			    <td>Glaube, Liebe, Tod</td>
+			    <td> ORF2</td>
+			 </tr>
+			 <tr>
+			    <td>07.09</td>
+			    <td> Verfolgt</td>
+			    <td>SRF</td>
+			 </tr>
+			   <tr>
+			    <td>05.10</td>
+			    <td>Winternebel</td>
+			    <td>SWR/SRF</td>
+			 </tr>
+			 <tr>
+			    <td>12.10</td>
+			    <td>Butterfly - Im Schmerz geboren</td>
+			    <td>HR</td>
+			 </tr>
+			 
+			  <tr class="table-last">
+			    <td>26.10</td>
+			    <td>Blackout</td>
+			    <td>SWR</td>
+			 </tr>
+			</table>
+	</div>
+
+		<div class="forum">
+			<h1>FORUM</h1>
+			 Diskutieren Sie mit anderen Fans in unseren Forum
+			  <p>>Hier gehts zum Forum<</p>
+
+		</div>
+		<div class="forum">
+			<h1>SPENDEN</h1>
+			 Die Macher des privaten Hobbyprojekts tatort-fundus.de freuen sich über jede Unterstützung und Anerkennung. Mit dem Geld werden primär die laufenden Kosten des Server- Betriebs beglichen. Danke für Ihre Unterstützung! 
+
+			 <div class="button">SPENDEN</div>
+		</div>
+
+		<div class="forum">
+			<h1>WERBUNG</h1>
+			<img src="links/showimage.aspx.jpg">
+		</div>
+</div>
+<!--<div class ="advert"> </div>-->
+</div>
+
+
+
+	<div class="footer"> 
+			<div class="service">
+				<h1>SERVICE</h1>
+				Schreiben Sie unserer Redaktion, wenn Sie eine Frage zum TATORT haben: 
+				<br>frage (at) tatort-media.de </br>
+			</div>
+			<div class="service">
+				<h1>© tatort-fundus 1997 - 2014</h1>
+				Alle Rechte vorbehalten<br>
+Vervielfältigung der Texte, BIlder und Daten nur mit Genehmigung des tatort-fundus<br>Sitemap | Impressum | Disclaimer 
+			</div>
+			
+			<div class="service">
+				<h1> UNTERSTÜTZUNG</h1>
+				Unterstützen Sie diese Website und tätigen Sie Ihre Einkäufe über unsere Amazon-Partner-ID.Danke. 
+			</div>
+
+		</div>
+
+
+</body>

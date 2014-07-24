@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="transparent">
+    <meta name="apple-mobile-web-app-title" content="SBB Prorotyp">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+   <!-- <script type="text/javascript" src="script/jquery-1.10.2.js"></script>-->
+    
+    <title>Tatort-Fundus</title>
+    <script language="JavaScript1.2">
+    /* you must supply your own immages */
+    var bgimages=new Array()
+    bgimages[0]="links/background1.jpg"
+    bgimages[1]="links/background2.jpg"
+    bgimages[2]="links/background3.jpg"
+    
+    var inc=-1
+    
+    function bgSlide()
+    {
+      if (inc<bgimages.length-1)
+        inc++
+      else
+        inc=0
+      document.body.style.backgroundImage="url('"+bgimages[inc]+"')"
+    }
+    
+    if (document.all||document.getElementById)
+      window.onload=new Function('setInterval("bgSlide()",6000)')
+    </script>
+
+</head>
+
+<body>
+<div class="back-color">
+		<div class="logo"><img  src="links/1_Tatort_Logo.jpg" ></div>
+<div class="navigation">
+
+	<div class="menu">
+	<ul >
+		<li><a href="index.html">HOME</a>
+				
+			</li>
+			<li id="Folgen"><a href="#">FOLGEN</a>
+				
+					<ul >
+						<li><a href="folgen2.html">NÄCHSTE ERSTSENDUNGEN </a>&nbsp|</li>
+						<li><a href="#">NÄCHSTE WIEDERHOLUNGEN </a>&nbsp|</li>
+						<li><a href="#">FOLGEN ALPHABETISCH </a>&nbsp|</li>
+						<li><a href="folgen_detail.html">FOLGEN CHRONOLOGISCH </a>&nbsp|</li>
+						<li><a href="#">SPEZIELLE SENDUNGEN</a></li>
+					</ul>
+					
+			</li>
+			<li id="Rangliste"><a href="#">RANGLISTE</a>
+				
+					<ul >
+						<li><a href="#">LOGIN </a>&nbsp|</li>
+						<li><a href="#">FOLGEN WERTUNGEN </a>&nbsp|</li>
+						<li><a href="#">ERMITTLER WERTUNGEN </a>&nbsp|</li>
+						<li><a href="#">WERTUNG ANDERE USER </a>&nbsp|</li>
+						<li><a href="#">STATISTIKEN </a>&nbsp|</li>
+						<li><a href="#">EINSTELLUNGEN</a></li>
+					</ul>
+						
+			</li>
+			<li id="Personen"><a href="#">PERSONEN</a>
+				
+					<ul >
+						<li><a href="#">ERMITTLER </a>&nbsp|
+							<ul>
+									<li><a href="#">ALPHABETISCH SORTIERT</a> 
+			&nbsp|							<li><a href="#">NACH SENDER </a>&nbsp|
+											<li><a href="#">20 EINTAGSFLIEGEN </a>&nbsp|
+												<li><a href="#">GASTAUFTRITT</a>
+													
+								</ul>
+								</li>
+						<li><a href="#">PRODUKTION & HINTERGRUND</a>
+							<ul>
+								<li><a href="#">ARD VERANTWORTLICHE </a>&nbsp|
+									<li><a href="#">AUTOREN </a>&nbsp|
+										<li><a href="#">KAMERA </a>&nbsp|
+											<li><a href="#">MUSIKER </a>&nbsp|
+												<li><a href="#">REGIE </a>&nbsp|
+													<li><a href="#">SONSTIGE</a>
+							</ul>
+						</li>
+					</ul>
+					
+			</li>
+			<li id="Fundus"><a href="#">FUNDUS</a>
+				
+					<ul >
+						<li><a href="#">LEXIKON </a>&nbsp|
+							<ul>
+									<li><a href="#">ABSPANN </a>&nbsp|
+									<li><a href="#">ALTERSBESCHRÄNKUNG </a>&nbsp|
+									<li><a href="#">AUTOS DER ERMITTLER </a>&nbsp|
+									<li><a href="#">KARNEVAL IM TATORT </a>&nbsp|
+									<li><a href="#">LITERATUR </a>&nbsp|
+									<li><a href="#">MITSCHNITT GESUCHT! </a>&nbsp|
+									<li><a href="#">PHÄNOMEN UND KULT </a>&nbsp|
+									<li><a href="#">STATISTIKEN </a>&nbsp|
+									<li><a href="#">VORSPANN </a>&nbsp|
+									<li><a href="#">ZEITREISEN MIT TATORT</a>
+							</ul>
+						</li>
+						<li><a href="#">MEDIEN</a>
+								<ul>
+									<li><a href="#">BÜCHER & BROSCHÜREN </a>&nbsp|
+									<li><a href="#">VHS/ DVD </a>&nbsp|
+									<li><a href="#">CD/LP/SINGLE/HÖHRBÜCHER </a>&nbsp|
+									<li><a href="#">FAN-ARTIKEL</a>
+								</ul>
+						</li>
+						
+					</ul>
+					
+			</li>
+			<li id="Suche"><a href="#">SUCHE</a></li>
+	</ul>
+	</div>
+</div>
+
+<div class="box">
+		<div class="login">
+			<ul>
+				<li><a href="#">LOGIN</a>
+						<ul>
+							<li><a href="#">NEUE ANMELDUNG</a></li>
+							<li><a href="#">MEINE BEWERTUNGEN</a></li>
+							<li><a href="#">EINSTELLUNGEN</a></li>
+						</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+<div class="main">
+	<div class="news-top">
+		<img src="links/1_Tatort_Tod_einer_Lehrerin_web.jpg">
+		<div class="text top">
+			<H1>DREHBEGINN </H1>
+			<h2>BOROWSKI UND DIE KINDER</h2>
+			<p>Ein Toter in einem sozialen Brennpunktviertel, Kinder aus schwierigen Verhältnissen, die von dem Ermordeten offenbar missbraucht wurden: Klaus Borowski und Sarah Brandt geraten in ihrem neuen Fall mehr als einmal an ihre Grenzen. Am 24. Juni fiel in Kiel die erste Klappe für einen neuen NDR-TATORT mit Axel Milberg und Sibel Kekilli.</p>
+		</div></div>
+	
+
+	<div class="news left">
+		<img src="links/2_Tatort_Tote_Erde_web.jpg">
+		<div class="text">
+			<H1>MORD IN SUITE 426  </H1>
+			<h2>Rätselhafter Tod eines Zimmermädchens</h2>
+			<p>Der SWR versucht sich mit seinem Ludwigshafener Team um Lena Odenthal an einem Polit-Krimi. Unter der Regie von Tim Trageser begannen dafür am 24. Juni die Dreharbeiten, unter anderem mit Suzanne von Borsody.</p>
+		</div></div>
+
+	<div class="news mid">
+		<img src="links/1_Tatort_Wie_einst_Lilly_web.jpg">
+		<div class="text">
+			<H1>DREHSTART </H1>
+			<h2>Im freien Fall</h2>
+			<p>In Dortmund wird zum sechsten Mal ermittelt - Unter der Regie von Züli Aladag entsteht ein neuer TATORT mit Jörg Hartmann, Anna Schudt, Aylin Tezel und Stefan Konarske. Darin muss der Tod eines Fallschirmspringers aufgeklärt werden, dessen Schirm offensichtlich manipuliert wurde.</p>
+		</div></div>
+
+<div class="news right">
+		<img src="links/3_Tatort_Blutgelg_web.jpg">
+		<div class="text">
+		<H1>INTERVIEW MIT DEN MACHERN</H1>
+			<h2>"Wenn die Mauern auf einmal durchlässig sind..."</h2>
+			<p>Am Pfingstmontag war der neue Stuttgarter TATORT Freigang in der ARD zu sehen, der aus der Feder von Martin Eigler und Sönke Lars Neuwöhner stammt. Eigler führte auch Regie bei diesem 14. Fall von Bootz und Lannert. Im Interview mit dem Tatort-Fundus berichten die beiden ausführlich über ihre Recherchen und die Entstehung des Films.</p>
+</div></div>
+
+<div class="news left">
+		<img src="links/23_Tatort_Mauerpark_web.jpg">
+		
+		<div class="text">
+			<H1>DREHARBEITEN IN NIEDERÖSTERREICH </H1>
+			<h2>ORF-TATORT nach wahrer Begebenheit</h2>
+			<p>Seit Mitte Juni stehen Harald Krassnitzer und Adele Neuhauser für den neuen TATORT "Grenzfall" vor der Kamera. Die Spurensuche der rot-weiß-roten Ermittler reicht bis in die 1960er Jahre zurück.</p>
+		</div></div>
+
+	<div class="news mid">
+			<img src="links/1_Tatort_Es_ist_boese_web.jpg">
+		<div class="text">
+			<H1>TATORT BERLIN </H1>
+			<h2>Letzter Fall für Felix Stark</h2>
+			<p>Am 13. Mai 2014 begannen in Berlin die Dreharbeiten zum TATORT "Die Vorsehung", dem letzten mit Boris Aljinovic als Hauptkommissar Felix Stark. Darin arbeitet er mit einer Frau, die behauptet seherische Fähigkeiten zu besitzen.</p>
+		</div></div>
+
+<div class="news right">
+	
+		<img src="links/5_Tatort_Sonnenfinsternis_web.jpg">
+		<div class="text">
+		<H1>TATORT MDR </H1>
+			<h2>Sachsen-TATORT: Aus für Thomalla und Wuttke</h2>
+			<p>Sachsen bekommt einen neuen TATORT. Wie MDR-Fernsehdirektor Wolf-Dieter Jacobi mitteilt, wird der Krimi aus Sachsen grundlegend neu gestaltet. Diese Ankündigung Brandts bedeutet das Aus für das bisherige Ermittler-Duo Simone Thomalla und Martin Wuttke.</p>
+	</div>
+</div>
+
+<div class="space">
+		</div>
+
+</div>
+
+<div class="sidebar">
+
+	<div class="wdh">
+		<div class="wdh-box"> <h1>Nächste Wiederholungen</h1></div>
+		<table>
+			  <tr>
+			    <th>Datum</th>
+			    <th>Titel</th>
+			    <th>Sender</th>
+
+			 </tr>
+			 <tr>
+			    <td>24.06.	</td>
+			    <td>Glaube, Liebe, Tod</td>
+			    <td> ORF2</td>
+			 </tr>
+			 <tr>
+			    <td>07.09</td>
+			    <td> Verfolgt</td>
+			    <td>SRF</td>
+			 </tr>
+			   <tr>
+			    <td>05.10</td>
+			    <td>Winternebel</td>
+			    <td>SWR/SRF</td>
+			    
+			 </tr>
+			 <tr>
+			    <td>12.10</td>
+			    <td> 	Butterfly - Im Schmerz geboren</td>
+			    <td>HR</td>
+			 </tr>
+			 
+			  <tr class="table-last">
+			    <td> 	26.10</td>
+			    <td>Blackout</td>
+			    <td>SWR</td>
+			 </tr>
+			</table>
+	</div>
+		<div class="forum">
+			<h1>FORUM</h1>
+			 Diskutieren Sie mit anderen Fans in unseren Forum
+			   <p>>Hier gehts zum Forum<</p>
+
+		</div>
+		<div class="forum">
+			<h1>SPENDEN</h1>
+			 Die Macher des privaten Hobbyprojekts tatort-fundus.de freuen sich über jede Unterstützung und Anerkennung. Mit dem Geld werden primär die laufenden Kosten des Server- Betriebs beglichen. Danke für Ihre Unterstützung! 
+
+			 <div class="button">SPENDEN</div>
+		</div>
+
+		<div class="forum">
+			<h1>WERBUNG</h1>
+			<img src="links/showimage.aspx.jpg">
+		</div>
+
+</div>
+
+			<div class="footer"> 
+			<div class="service">
+				<h1>SERVICE</h1>
+				Schreiben Sie unserer Redaktion, wenn Sie eine Frage zum TATORT haben: 
+				<br>frage (at) tatort-media.de </br>
+			</div>
+			<div class="service info">
+				<h1>© tatort-fundus 1997 - 2014</h1>
+				<p>Sitemap | Impressum | Disclaimer <br>
+				Alle Rechte vorbehalten
+				Vervielfältigung der Texte, BIlder und Daten nur mit Genehmigung des tatort-fundus</p>
+				
+			</div>
+			
+			<div class="service">
+				<h1> UNTERSTÜTZUNG</h1>
+				Unterstützen Sie diese Website und tätigen Sie Ihre Einkäufe über unsere Amazon-Partner-ID.Danke. 
+			</div>
+
+		</div>
+</div>
+</body>

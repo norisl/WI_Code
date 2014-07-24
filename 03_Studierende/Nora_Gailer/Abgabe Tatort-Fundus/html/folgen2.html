@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="transparent">
+    <meta name="apple-mobile-web-app-title" content="SBB Prorotyp">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+   <!-- <script type="text/javascript" src="script/jquery-1.10.2.js"></script>-->
+    
+    <title>Tatort-Fundus</title>
+     <script language="JavaScript1.2">
+    /* you must supply your own immages */
+    var bgimages=new Array()
+ 	bgimages[0]="links/background1.jpg"
+    bgimages[1]="links/background2.jpg"
+    bgimages[2]="links/background3.jpg"
+	bgimages[3]="links/background4.jpg"
+	bgimages[4]="links/background5.jpg" 
+	bgimages[5]="links/background6.jpg"
+    
+    
+    var inc=-1
+    
+    function bgSlide()
+    {
+      if (inc<bgimages.length-1)
+        inc++
+      else
+        inc=0
+      document.body.style.backgroundImage="url('"+bgimages[inc]+"')"
+    }
+    
+    if (document.all||document.getElementById)
+      window.onload=new Function('setInterval("bgSlide()",6000)')
+    </script>
+</head>
+
+<body>
+
+<div class="back-color">
+
+			<div class="logo"><img  src="links/1_Tatort_Logo_weiss.jpg" ></div>
+<div class="navigation">
+
+	<div class="menu">
+	<ul >
+		<li><a href="index.html">HOME</a>
+				
+			</li>
+			<li id="Folgen"><a href="#">FOLGEN</a>
+				
+					<ul >
+						<li><a href="folgen2.html">NÄCHSTE ERSTSENDUNGEN </a>&nbsp|</li>
+						<li><a href="#">NÄCHSTE WIEDERHOLUNGEN </a>&nbsp|</li>
+						<li><a href="#">FOLGEN ALPHABETISCH </a>&nbsp|</li>
+						<li><a href="folgen_detail.html">FOLGEN CHRONOLOGISCH </a>&nbsp|</li>
+						<li><a href="#">SPEZIELLE SENDUNGEN</a></li>
+					</ul>
+					
+			</li>
+			<li id="Rangliste"><a href="#">RANGLISTE</a>
+				
+					<ul >
+						<li><a href="#">LOGIN </a>&nbsp|</li>
+						<li><a href="#">FOLGEN WERTUNGEN </a>&nbsp|</li>
+						<li><a href="#">ERMITTLER WERTUNGEN </a>&nbsp|</li>
+						<li><a href="#">WERTUNG ANDERE USER </a>&nbsp|</li>
+						<li><a href="#">STATISTIKEN </a>&nbsp|</li>
+						<li><a href="#">EINSTELLUNGEN</a></li>
+					</ul>
+						
+			</li>
+			<li id="Personen"><a href="#">PERSONEN</a>
+				
+					<ul >
+						<li><a href="#">ERMITTLER </a>&nbsp|
+							<ul>
+									<li><a href="#">ALPHABETISCH SORTIERT</a> 
+			&nbsp|							<li><a href="#">NACH SENDER </a>&nbsp|
+											<li><a href="#">20 EINTAGSFLIEGEN </a>&nbsp|
+												<li><a href="#">GASTAUFTRITT</a>
+													
+								</ul>
+								</li>
+						<li><a href="#">PRODUKTION & HINTERGRUND</a>
+							<ul>
+								<li><a href="#">ARD VERANTWORTLICHE </a>&nbsp|
+									<li><a href="#">AUTOREN </a>&nbsp|
+										<li><a href="#">KAMERA </a>&nbsp|
+											<li><a href="#">MUSIKER </a>&nbsp|
+												<li><a href="#">REGIE </a>&nbsp|
+													<li><a href="#">SONSTIGE</a>
+							</ul>
+						</li>
+					</ul>
+					
+			</li>
+			<li id="Fundus"><a href="#">FUNDUS</a>
+				
+					<ul >
+						<li><a href="#">LEXIKON </a>&nbsp|
+							<ul>
+									<li><a href="#">ABSPANN </a>&nbsp|
+									<li><a href="#">ALTERSBESCHRÄNKUNG </a>&nbsp|
+									<li><a href="#">AUTOS DER ERMITTLER </a>&nbsp|
+									<li><a href="#">KARNEVAL IM TATORT </a>&nbsp|
+									<li><a href="#">LITERATUR </a>&nbsp|
+									<li><a href="#">MITSCHNITT GESUCHT! </a>&nbsp|
+									<li><a href="#">PHÄNOMEN UND KULT </a>&nbsp|
+									<li><a href="#">STATISTIKEN </a>&nbsp|
+									<li><a href="#">VORSPANN </a>&nbsp|
+									<li><a href="#">ZEITREISEN MIT TATORT</a>
+							</ul>
+						</li>
+						<li><a href="#">MEDIEN</a>
+								<ul>
+									<li><a href="#">BÜCHER & BROSCHÜREN </a>&nbsp|
+									<li><a href="#">VHS/ DVD </a>&nbsp|
+									<li><a href="#">CD/LP/SINGLE/HÖHRBÜCHER </a>&nbsp|
+									<li><a href="#">FAN-ARTIKEL</a>
+								</ul>
+						</li>
+						
+					</ul>
+					
+			</li>
+			<li id="Suche"><a href="#">SUCHE</a></li>
+	</ul>
+	</div>
+</div>
+
+<div class="box">
+		<div class="login">
+			<ul>
+				<li><a href="#">LOGIN</a>
+						<ul>
+							<li><a href="#">NEUE ANMELDUNG</a></li>
+							<li><a href="#">MEINE BEWERTUNGEN</a></li>
+							<li><a href="#">EINSTELLUNGEN</a></li>
+						</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+<div class="main">
+
+	<div class="calendar">
+		<p>Erstsendungen im 2014</p>
+		<div class="month"><a href="/events/2014">JAN</a><div></div></div>
+		<div class="month"><a href="/events/2014">FEB</a><div></div></div>
+		<div class="month"><a href="/events/2014">MAR</a><div></div></div>
+		<div class="month"><a href="/events/2014">APR</a><div></div></div>
+		<div class="month"><a href="/events/2014">MAI</a><div></div></div>
+		<div class="month"><a href="/events/2014">JUN</a><div></div></div>
+		<div class="month"><a href="/events/2014">JUL</a><div></div></div>
+		<div class="month"><a href="/events/2014">AUG</a><div></div></div>
+		<div class="month"><a href="/events/2014">SEP</a><div></div></div>
+		<div class="month"><a href="/events/2014">OKT</a><div></div></div>
+		<div class="month"><a href="/events/2014">NOV</a><div></div></div>
+		<div class="month"><a href="/events/2014">DEZ</a><div></div></div>
+	</div>
+
+		<div class="news folgen ">
+			<img src="links/1_Tatort_Es_ist_boese_web.jpg" width="30%">
+			<h1>TATORT: LUDWIGSHAFEN  </h1>
+			<h2>Zirkuskind</h2>
+				 <p>Clowns, Kamele, Seilakrobaten – im kleinen Wanderzirkus „Burani“ genießen Lena Odenthal und Mario Kopper die Vorstellung und lassen sich verzaubern. Nur wenige Stunden später suchen sie die Manege erneut auf: Ein Mitglied der Zirkustruppe ist tot aufgefunden worden, Pit, ein Zirkus-Mitarbeiter, wurde erschlagen. <h3>TATORT-Erstsendung am Sonntag, 25. Februar 2014</h3></p>
+		</div>
+		<div class="news folgen ">
+			<img src="links/1_Tatort_Aljinovic_Raacke_2011-web.jpg" width="30%">
+			<h1>TATORT: BREMEN </h1>
+			<h2>Alle meine Jungs</h2>
+				 <p>Schwer verletzt versucht Müllmann Maik Decker mit einem Müllwagen zu fliehen. Doch es ist zu spät. Der Müllwagen verunglückt und Maik stirbt an seinen Stichverletzungen. Die Bremer Kommissare Inga Lürsen und Stedefreund übernehmen den Fall und durchleuchten das Umfeld des Opfers. <h3>TATORT-Erstsendung am Sonntag, 16. Februar 2014</h3></p>
+		</div>
+		<div class="news folgen ">
+			<img src="links/1_Goetz_George_Schimanski_2006_web.jpg" width="30%">
+			<h1>TATORT: DORTMUND  </h1>
+			<h2>Auf ewig Dein</h2>
+				 <p>Miriam war erst zwölf. Erdrosselt und notdürftig im Wald verscharrt: Kommissar Faber befürchtet gleich, dass es sich hier nicht um eine Einzeltat handelt: Seit dem Vortag wird auch die 13-jährige Lisa vermisst. Ist die Dortmunder Mordkommission hier einem Pädophilen-Ring auf der Spur? <h3>TATORT-Erstsendung am Sonntag, 11. Februar 2014</h3></p>
+		</div>
+<div class="news folgen ">
+			<img src="links/1_Tatort_Falsches_Alibi_web.jpg" width="30%">
+			<h1>TATORT: LUZERN </h1>
+			<a href="folgen_detail.html"><h2>Zwischen zwei Welten</h2></a>
+				 <p>SDonna Müller wird von einer Brücke gestossen und ist sofort tot. Der Fall führt die Luzerner TATORT-Ermittler rund um Reto Flückiger zu drei Kindern, die von drei verschiedenen Vätern stammen. Weder die Kinder noch Donnas engste Freundin wissen, was Donna am Abend ihres Todes vorhatte und wer ein Interesse an ihrem Tod haben könnte. <h3>TATORT-Erstsendung am Ostermontag, 2. Februar 2014</h3></p>
+		</div>
+<div class="news folgen ">
+			<img src="links/1_Tatort_Vermisst_web.jpg" width="30%">
+			<h1>TATORT: KÖLN </h1>
+			<h2>Franziska</h2>
+				 <p>Franziska wurde als Geisel genommen: Diese Nachricht trifft Ballauf und Schenk mitten ins Mark. Sie müssen nicht nur den Mord an einem Häftling in der JVA Köln aufklären, sondern auch dringend ihrer Kollegin helfen. <h3>TATORT-Erstsendung am Sonntag, 5. Januar 2014 um 22:00 Uhr</h3></p>
+		</div>
+		<div class="news folgen ">
+			<img src="links/19_Tatort_Borowski_und_eine_Frage_von_reinem_Geschmack_web.jpg" width="30%">
+			<h1>TATORT: HAMBURG  </h1>
+			<h2>Kopfgeld</h2>
+				 <p>Hauptkommissar Nick Tschiller und sein Kollege Yalcin Gümer setzen den kurdischen Astan-Clan unter Druck, der in einem blutigen Kampf gegen den Bürsum-Clan die Macht in der Hamburger Unterwelt zu übernehmen droht. Obwohl Firat Astan, gegen den das ungleiche Paar schon im ersten Fall ermittelte, im Gefängnis sitzt, setzt er ein Kopfgeld auf den Tod von Nick aus. <h3>TATORT-Erstsendung am Sonntag, 01. Januar 2014</h3></p>
+		</div>
+		<div class="space">
+		</div>
+	</div>
+
+
+<div class="sidebar">
+
+		<div class="wdh">
+		<div class="wdh-box"> <h1>Nächste Wiederholungen</h1></div>
+		<table>
+			  <tr>
+			    <th>Datum</th>
+			    <th>Titel</th>
+			    <th>Sender</th>
+
+			 </tr>
+			 <tr>
+			    <td>24.06.	</td>
+			    <td>Glaube, Liebe, Tod</td>
+			    <td> ORF2</td>fo
+			 </tr>
+			 <tr>
+			    <td>07.09</td>
+			    <td> Verfolgt</td>
+			    <td>SRF</td>
+			 </tr>
+			   <tr>
+			    <td>05.10</td>
+			    <td>Winternebel</td>
+			    <td>SWR/SRF</td>
+	
+			 </tr>
+			 <tr>
+			    <td>12.10</td>
+			    <td> 	Butterfly - Im Schmerz geboren</td>
+			    <td>HR</td>
+			 </tr>
+			 
+			  <tr class="table-last">
+			    <td> 	26.10</td>
+			    <td>Blackout</td>
+			    <td>SWR</td>
+			 </tr>
+			</table>
+	</div>
+
+
+		<div class="forum forum">
+			<h1>FORUM</h1>
+			 Diskutieren Sie mit anderen Fans in unseren Forum
+			 <p>>Hier gehts zum Forum<</p>
+		</div>
+
+		<div class="forum">
+			<h1>SPENDEN</h1>
+			 Die Macher des privaten Hobbyprojekts tatort-fundus.de freuen sich über jede Unterstützung und Anerkennung. Mit dem Geld werden primär die laufenden Kosten des Server- Betriebs beglichen. Danke für Ihre Unterstützung! 
+
+			 <div class="button">SPENDEN</div>
+		</div>
+
+		<div class="forum">
+			<h1>WERBUNG</h1>
+			<img src="links/showimage.aspx.jpg">
+		</div>
+		
+</div>
+	<div class="footer"> 
+			<div class="service">
+				<h1>SERVICE</h1>
+				Schreiben Sie unserer Redaktion, wenn Sie eine Frage zum TATORT haben: 
+				<br>frage (at) tatort-media.de </br>
+			</div>
+			<div class="service">
+				<h1>© tatort-fundus 1997 - 2014</h1>
+				Alle Rechte vorbehalten<br>
+Vervielfältigung der Texte, BIlder und Daten nur mit Genehmigung des tatort-fundus<br>Sitemap | Impressum | Disclaimer 
+			</div>
+			
+			<div class="service">
+				<h1> UNTERSTÜTZUNG</h1>
+				Unterstützen Sie diese Website und tätigen Sie Ihre Einkäufe über unsere Amazon-Partner-ID.Danke. 
+			</div>
+
+		</div>
+
+		</div>
+</body>
